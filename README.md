@@ -138,7 +138,40 @@ This feat is achieved by observing statistical values like R-square, t-stats and
 The aim of this modeling technique is to maximize the prediction power with minimum number of predictor variables. It is one of the method to handle higher dimensionality of data set.
 
 # 3. Classfication
+Classification is technique to categorize our data into a desired and distinct number of classes where we can assign label to each class. It can be performed on structured or unstructured data.
 
+### Basic Terminology in Classification Algorithms
+* **Classifier:** An algorithm that maps the input data to a specific category.
+* **Classification model:** A classification model tries to draw some conclusion from the input values given for training. It will predict the class labels/categories for the new data.
+* **Feature:** A feature is an individual measurable property of a phenomenon being observed.
+* **Binary Classification:** Classification task with two possible outcomes. Eg: Gender classification (Male / Female)
+* **Multi-class classification:** Classification with more than two classes. In multi-class classification, each sample is assigned to one and only one target label. Eg: An animal can be a cat or dog but not both at the same time. 
+* **Multi-label classification:** Classification task where each sample is mapped to a set of target labels (more than one class). Eg: A news article can be about sports, a person, and location at the same time.
+
+### Applications of Classification Algorithms
+* Email spam classification
+* Bank customers loan pay willingness prediction.
+* Cancer tumor cells identification.
+* Sentiment analysis 
+* Drugs classification
+* Facial key points detection
+* Pedestrians detection in an automotive car driving.
+
+### Types of Classification Algorithms
+Classification Algorithms could be broadly classified as the following:
+
+* Linear Classifiers
+      - Logistic regression
+      - Naive Bayes classifier
+* Support vector machines
+      - Least squares support vector machines
+* Quadratic classifiers
+* Kernel estimation
+      - k-nearest neighbor 
+* Decision trees
+* Random forests
+* Neural networks
+* Learning vector quantization
 
 # 4. Clustering
 
