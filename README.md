@@ -13,3 +13,36 @@ Machine learning is changing the world and if you want to be a part of the ML re
 9. Reinforcement Learning
 10. Time Series Analysis
 11. Model Selection and Boosting
+
+
+# 1. Regression
+
+
+# 2. Classfication
+
+
+# 3. Clustering
+
+
+# 4. SciKit Learn
+
+
+# 5. Supervised Learning
+
+
+# 6. Dimensionality Reduction
+
+
+# 7. Unsupervised Learning
+
+
+# 8. Association Rules Mining and Recommendation Systems
+
+
+# 9. Reinforcement Learning
+
+
+# 10. Time Series Analysis
+
+
+# 11. Model Selection and Boosting
