@@ -174,6 +174,37 @@ Classification Algorithms could be broadly classified as the following:
 * Learning vector quantization
 
 # 4. Clustering
+** Clustering** is a Machine Learning technique that involves the grouping of data points.
+
+Clustering is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group than those in other groups. In simple words, the aim is to segregate groups with similar traits and assign them into clusters.
+
+Clustering is an unsupervised machine learning approach, but can it be used to improve the accuracy of supervised machine learning algorithms as well by clustering the data points into similar groups and using these cluster labels as independent variables in the supervised machine learning algorithm.
+
+### Types of Clustering
+Broadly speaking, clustering can be divided into two subgroups :
+
+* **Hard Clustering:** In hard clustering, each data point either belongs to a cluster completely or not. For example, in the above example each customer is put into one group out of the 10 groups.
+
+* **Soft Clustering:** In soft clustering, instead of putting each data point into a separate cluster, a probability or likelihood of that data point to be in those clusters is assigned. For example, from the above scenario each costumer is assigned a probability to be in either of 10 clusters of the retail store.
+
+### Classification of Clustering Algorithm:
+
+1. Exclusive Clustering 
+2. Overlapping Clustering
+3. Hierarchical Clustering
+
+### K-Means Clustering
+K-Means algorithms are extremely easy to implement and very efficient computationally speaking. Those are the main reasons that explain why they are so popular. But they are not very good to identify classes when dealing with in groups that do not have a spherical distribution shape.
+
+The K-Means algorithms aims to find and group in classes the data points that have high similarity between them. In the terms of the algorithm, this similiarity is understood as the opposite of the distance between datapoints. The closer the data points are, the more similar and more likely to belong to the same cluster they will be.
+
+### Algorithm Steps
+* First, we need to choose k, the number of clusters that we want to be finded.
+* Then, the algorithm will select randomly the the centroids of each cluster.
+* It will be assigned each datapoint to the closest centroid (using euclidean distance).
+* It will be computed the cluster inertia.
+* The new centroids will be calculated as the mean of the points that belong to the centroid of the previous step. In other words, by calculating the minimum quadratic error of the datapoints to the center of each cluster, moving the center towards that point
+* Back to step 3.
 
 
 # 5. SciKit Learn
