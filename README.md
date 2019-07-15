@@ -1,2 +1,2 @@
-# machine-learning-with-python
+# Machine Learning with Python
 Machine learning is changing the world and if you want to be a part of the ML revolution, this is a great place to start! This repository serves as an excellent introduction to implementing machine learning algorithms in depth such as linear and logistic regression, decision tree, random forest, SVM, Naive Bayes, KNN, K-Mean Cluster, PCA, Time Series Analysis and so on.
