@@ -302,6 +302,20 @@ Correlation indicates that there is redundancy in the data. Due to this redundan
 
 
 # 8. Unsupervised Learning
+Unsupervised Learning is a class of Machine learning techniques to find the patterns in data. The data given to unsupervised algorithm are not labelled, which means only the input variables(X) are given with no corresponding output variables. In unsupervised learning, the algorithms are left to themselves to discover interesting structures in the data.
+
+### What is Unsupervised Learning?
+The model learns through observation and finds structures in the data. Once the model is given a dataset, it automatically finds patterns and relationships in the dataset by creating clusters in it. What it cannot do is add labels to the cluster, like it cannot say this a group of apples or mangoes, but it will separate all the apples from mangoes.
+Suppose we presented images of apples, bananas and mangoes to the model, so what it does, based on some patterns and relationships it creates clusters and divides the dataset into those clusters. Now if a new data is fed to the model, it adds it to one of the created clusters.
+
+Well, this category of machine learning is known as unsupervised because unlike supervised learning there is no teacher. Algorithms are left on their own to discover and return the interesting structure in the data.
+The goal for unsupervised learning is to model the underlying structure or distribution in the data in order to learn more about the data.
+
+#### Let me rephrase it for you in simple terms:
+In the unsupervised learning approach, the sample of a training dataset does not have an expected output associated with them. Using the unsupervised learning algorithms you can detect patterns based on the typical characteristics of the input data. Clustering can be considered as an example of a machine learning task that uses the unsupervised learning approach. The machine then groups similar data samples and identify different clusters within the data.
+
+#### Example: 
+Fraud Detection is probably the most popular use-case of Unsupervised Learning. Utilizing past historical data on fraudulent claims, it is possible to isolate new claims based on its proximity to clusters that indicate fraudulent patterns.
 
 
 # 9. Association Rules Mining and Recommendation Systems
