@@ -55,7 +55,6 @@ The prediction is evaluated for accuracy and if the accuracy is acceptable, the 
 3. Reinforcement Learning(Learn From Experience)
 
 
-
 # 2. Regression
 In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships among variables. 
 
@@ -246,9 +245,60 @@ Some popular groups of models provided by scikit-learn include:
 
 
 # 6. Supervised Learning
+### What is Supervised Learning?
+Supervised Learning is the one, where you can consider the learning is guided by a teacher. We have a dataset which acts as a teacher and its role is to train the model or the machine. Once the model gets trained it can start making a prediction or decision when new data is given to it.
+
 
 
 # 7. Dimensionality Reduction
+
+Dimensionality reduction is the process of reducing the number of random variables under consideration, by obtaining a set of principal variables. It can be divided into feature selection and feature extraction.
+
+#### Dimensionality reduction can be done in two different ways:
+* By only keeping the most relevant variables from the original dataset (this technique is called feature selection)
+* By finding a smaller set of new variables, each being a combination of the input variables, containing basically the same information as the input variables (this technique is called dimensionality reduction)
+
+We will now look at various dimensionality reduction techniques and how to implement each of them in Python.
+
+### Factor Analysis
+Suppose we have two variables: Income and Education. These variables will potentially have a high correlation as people with a higher education level tend to have significantly higher income, and vice versa.
+
+In the Factor Analysis technique, variables are grouped by their correlations, i.e., all variables in a particular group will have a high correlation among themselves, but a low correlation with variables of other group(s). Here, each group is known as a factor. These factors are small in number as compared to the original dimensions of the data. However, these factors are difficult to observe.
+
+
+### Principal Component Analysis (PCA)
+PCA is a technique which helps us in extracting a new set of variables from an existing large set of variables. These newly extracted variables are called Principal Components. You can refer to this article to learn more about PCA. For your quick reference, below are some of the key points you should know about PCA before proceeding further:
+* A principal component is a linear combination of the original variables
+* Principal components are extracted in such a way that the first principal component explains maximum variance in the dataset
+* Second principal component tries to explain the remaining variance in the dataset and is uncorrelated to the first principal component
+* Third principal component tries to explain the variance which is not explained by the first two principal components and so on
+
+### What is principal component analysis?
+
+Principal component analysis (PCA) is used to summarize the information in a data set described by multiple variables.
+Note that, the information in a data is the total variation it contains.
+PCA reduces the dimensionality of data containing a large set of variables. This is achieved by transforming the initial variables into a new small set of variables without loosing the most important information in the original data set.
+These new variables corresponds to a linear combination of the originals and are called principal components.
+
+#### Main purpose of PCA
+The main goals of principal component analysis is :
+* to identify hidden pattern in a data set
+* to reduce the dimensionnality of the data by removing the noise and redundancy in the data
+* to identify correlated variables
+PCA method is particularly useful when the variables within the data set are highly correlated.
+Correlation indicates that there is redundancy in the data. Due to this redundancy, PCA can be used to reduce the original variables into a smaller number of new variables ( = principal components) explaining most of the variance in the original variables.
+
+#### Points to Remember
+1. PCA is used to overcome features redundancy in a data set.
+2. These features are low dimensional in nature.
+3. These features a.k.a components are a resultant of normalized linear combination of original predictor variables.
+4. These components aim to capture as much information as possible with high explained variance.
+5. The first component has the highest variance followed by second, third and so on.
+6. The components must be uncorrelated (remember orthogonal direction ? ). See above.
+7. Normalizing data becomes extremely important when the predictors are measured in different units.
+8. PCA works best on data set having 3 or higher dimensions. Because, with higher dimensions, it becomes increasingly difficult to make interpretations from the resultant cloud of data.
+9. PCA is applied on a data set with numeric variables.
+10. PCA is a tool which helps to produce better visualizations of high dimensional data.
 
 
 # 8. Unsupervised Learning
