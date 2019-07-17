@@ -319,6 +319,75 @@ Fraud Detection is probably the most popular use-case of Unsupervised Learning. 
 
 
 # 9. Association Rules Mining and Recommendation Systems
+**Association rule learning** is a rule-based machine learning method for discovering interesting relations between variables in large databases.
+
+### What is the Apriori Algorithm?
+
+Apriori algorithm, a classic algorithm, is useful in mining frequent itemsets and relevant association rules. Usually, you operate this algorithm on a database containing a large number of transactions. One such example is the items customers buy at a supermarket.
+It helps the customers buy their items with ease, and enhances the sales performance of the departmental store.
+This algorithm has utility in the field of healthcare as it can help in detecting adverse drug reactions (ADR) by producing association rules to indicate the combination of medications and patient characteristics that could lead to ADRs.
+
+#### Apriori Algorithm – An Odd Name
+It has got this odd name because it uses ‘prior’ knowledge of frequent itemset properties. The credit for introducing this algorithm goes to Rakesh Agrawal and Ramakrishnan Srikant in 1994. We shall now explore the apriori algorithm implementation in detail.
+Apriori algorithm – The Theory
+
+#### Three significant components comprise the apriori algorithm. They are as follows.
+* Support
+* Confidence
+* Lift
+
+#### Support
+Support is the default popularity of any item. You calculate the Support as a quotient of the division of the number of transactions containing that item by the total number of transactions. Hence, in our example,
+Support (Jam) = (Transactions involving jam) / (Total Transactions)
+                        = 200/2000 = 10%
+#### Confidence
+In our example, Confidence is the likelihood that customer bought both bread and jam. Dividing the number of transactions that include both bread and jam by the total number of transactions will give the Confidence figure.
+Confidence = (Transactions involving both bread and jam) / (Total Transactions involving jam)
+                    = 100/200 = 50%
+It implies that 50% of customers who bought jam bought bread as well.
+
+#### Lift
+According to our example, Lift is the increase in the ratio of the sale of bread when you sell jam. The mathematical formula of Lift is as follows.
+Lift = (Confidence (Jam͢͢ – Bread)) / (Support (Jam))
+      = 50 / 10 = 5
+It says that the likelihood of a customer buying both jam and bread together is 5 times more than the chance of purchasing jam alone. If the Lift value is less than 1, it entails that the customers are unlikely to buy both the items together. Greater the value, the better is the combination.
+
+### What is Recommendation Engine?
+A recommendation engine filters the data using different algorithms and recommends the most relevant items to users. It first captures the past behaviour of a customer and based on that, recommends products which the users might be likely to buy. The analysis uses the user details like.
+* Gender,
+* Age,
+* Geographical location,
+* Online searches,
+* Previous purchase or items user interested.
+
+Before we learn deeper aspects of recommendation engines. Let’s first understand about the real life and online recommendation engines.
+What is the difference between Real life and online Recommendation Engine
+Before summarizing the difference between Real life Recommendation engine and online Recommendation Engine lets qucikly look at the individual examples.
+
+#### Real life Recommendation Engine:
+* Your friend as movie recommendation engine.
+      - We ask our friends recommend some good movies for the weekend. Most of the cases we enjoy the movies recommended by our friend.
+* Your family members or friends as dress Recommendation Engine.
+      - Selecting a dress from thousands of models is a little bit harder. That’s why, when we are going to buy a dress for our Birthday or any festival purpose we ask our family members or friends to select a good dress for us.
+
+#### Why should we use recommendation engines?
+There is one famous quote about customer’s relationship. The Summary of the quote will go like this ‘customers don’t know what they want until we show them’. If we succeed in showing something which customers may like business profit will sky rocket .
+So recommendation engines will help customers find information, products, and services they might not have thought of. Recommendation applications are helpful in a wide variety of industries and Business.
+
+##### Some of them we have seen before and some application listed below.
+* Travel
+* Financial service
+* Music/Online radio
+* TV and Videos
+* Online publications
+* Retail
+* And countless others….
+
+#### Different types of Recommendation Engines
+Recommendation engines are mainly 2 types and one hybrid type:
+1. User Based Filtering or Collaborative Filtering.
+2. Content-Based Filtering
+3. Hybrid Recommendation Systems
 
 
 # 10. Reinforcement Learning
