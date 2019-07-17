@@ -208,6 +208,41 @@ The K-Means algorithms aims to find and group in classes the data points that ha
 
 
 # 5. SciKit Learn
+### What is scikit-learn?
+Scikit-learn provide a range of supervised and unsupervised learning algorithms via a consistent interface in Python.
+It is licensed under a permissive simplified BSD license and is distributed under many Linux distributions, encouraging academic and commercial use.
+
+The library is built upon the SciPy (Scientific Python) that must be installed before you can use scikit-learn. This stack that includes:
+* **NumPy:** Base n-dimensional array package
+* **SciPy:** Fundamental library for scientific computing
+* **Matplotlib:** Comprehensive 2D/3D plotting
+* **IPython:** Enhanced interactive console
+* **Sympy:** Symbolic mathematics
+* **Pandas:** Data structures and analysis
+
+Extensions or modules for SciPy care conventionally named SciKits. As such, the module provides learning algorithms and is named scikit-learn.
+
+The vision for the library is a level of robustness and support required for use in production systems. This means a deep focus on concerns such as easy of use, code quality, collaboration, documentation and performance.
+ 
+### What are the features?
+The library is focused on modelling data. It is not focused on loading, manipulating and summarizing data. For these features, refer to NumPy and Pandas.
+
+Some popular groups of models provided by scikit-learn include:
+* **Clustering:** for grouping unlabeled data such as KMeans.
+* **Cross Validation:** for estimating the performance of supervised models on unseen data.
+* **Datasets:** for test datasets and for generating datasets with specific properties for investigating model behavior.
+* **Dimensionality Reduction:** for reducing the number of attributes in data for summarization, visualization and feature selection such as Principal component analysis.
+* **Ensemble Methods:** for combining the predictions of multiple supervised models.
+* **Feature Extraction:** for defining attributes in image and text data.
+* **Feature Selection:** for identifying meaningful attributes from which to create supervised models.
+* **Parameter Tuning:** for getting the most out of supervised models.
+* **Manifold Learning:** For summarizing and depicting complex multi-dimensional data.
+* **Supervised Models:** a vast array not limited to generalized linear models, discriminate analysis, naive bayes, lazy methods, neural networks, support vector machines and decision trees.
+
+### Who is using it?
+* The scikit-learn testimonials page lists Inria, Mendeley, wise.io , Evernote, Telecom ParisTech and AWeber as users of the library.
+* If this is a small indication of companies that have presented on their use, then there are very likely tens to hundreds of larger organizations using the library.
+* It has good test coverage and managed releases and is suitable for prototype and production projects alike.
 
 
 # 6. Supervised Learning
